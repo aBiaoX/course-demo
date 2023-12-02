@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-gateway" />
+        <module name="course" />
+        <module name="course-arrange" />
+        <module name="course-common" />
+        <module name="user" />
+        <module name="course-select" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="user (1)" target="17" />
+      <module name="user (2)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="course" options="-parameters" />
+      <module name="course-arrange" options="-parameters" />
+      <module name="course-common" options="-parameters" />
+      <module name="course-select" options="-parameters" />
+      <module name="user" options="-parameters" />
+      <module name="user (2)" options="-parameters" />
+    </option>
+  </component>
+</project>
